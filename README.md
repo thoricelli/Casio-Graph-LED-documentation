@@ -242,5 +242,5 @@ SetAutoPowerOffFlag(); //Syscall 0x48D
 Cursor_SetFlashOff(); //Syscall 0x812
 ```
 
-This is what is used in the beginning by diagnostic mode. I've yet to find how the examination mode circumvents this issue.
+This is what is used in the beginning by diagnostic mode. I've yet to find how the examination mode circumvents this issue.<br>
 But it will break the USB timer, so you wont get a popup anymore when connecting your calculator.
