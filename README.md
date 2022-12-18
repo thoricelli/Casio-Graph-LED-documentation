@@ -140,7 +140,7 @@ Maximum - 101<br>
 
 <h2>Usage in code</h2>
 
-Thanks to the <a href="https://gitea.planet-casio.com/Lephenixnoir/fxos">FXOS dissasembler</a>.
+Thanks to the <a href="https://gitea.planet-casio.com/Lephenixnoir/fxos">FXOS dissasembler</a>.<br>
 A snippet of the LEDon function used in Diagnostic mode:
 <br>
 ```
