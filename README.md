@@ -17,6 +17,66 @@ The LED is controlled by what is called the "C-specification module" or "CMOD" i
 <h2>CMOD.DDCK_CNTR</h2>
 CMOD.DDCK_CNTR is the external CLK1 setting and it is an 8 bit address.<br>
 If set incorrectly it can cause the calculator to become unstable.<br><br>
+
+If a bit is set to 1 then the module is enabled.
+
+<table>
+  <tr>
+    <th>Bit</th>
+    <th>Name (made up)</th>
+    <th>Mode</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <th>7</th>
+    <th>???</th>
+    <th>???</th>
+    <th>???</th>
+  </tr>
+  <tr>
+    <th>6</th>
+    <th>???</th>
+    <th>???</th>
+    <th>???</th>
+  </tr>
+  <tr>
+    <th>5</th>
+    <th>???</th>
+    <th>???</th>
+    <th>???</th>
+  </tr>
+  <tr>
+    <th>4</th>
+    <th>???</th>
+    <th>???</th>
+    <th>???</th>
+  </tr>
+  <tr>
+    <th>3</th>
+    <th>???</th>
+    <th>???</th>
+    <th>???</th>
+  </tr>
+  <tr>
+    <th>2</th>
+    <th>???</th>
+    <th>???</th>
+    <th>???</th>
+  </tr>
+  <tr>
+    <th>1</th>
+    <th>???</th>
+    <th>???</th>
+    <th>???</th>
+  </tr>
+  <tr>
+    <th>0</th>
+    <th>LED module</th>
+    <th>R/W</th>
+    <th>Set to 1 when the LED module is enabled.</th>
+  </tr>
+</table>
+
 The setting used to control the LED is 0x4 (00000100).<br>
 And is set to 0x5 when not used. (00000101)<br>
 
