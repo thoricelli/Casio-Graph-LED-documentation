@@ -71,7 +71,7 @@ If a bit is set to 1 then the module is enabled.
   </tr>
   <tr>
     <th>0</th>
-    <th>LED module</th>
+    <th>LED_module</th>
     <th>R/W</th>
     <th>Set to 1 when the LED module is enabled.</th>
   </tr>
