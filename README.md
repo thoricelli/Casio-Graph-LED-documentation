@@ -194,7 +194,7 @@ and     #-2, r0                         #AND r0 with decimal -2 (11111110)
 mov.b   r0, @r14                        #Move result (r0) to memory location 0xa44c0020
 
 #DDCLKR0
-bfda   bsr     <0x800427e8>             #Move to function
+bsr     <0x800427e8>             #Move to function
 |
 -----> mov     #1, r0                   #Move decimal 1 into r0
 mov.l   0x801d1eb8, r1                  #Move 0x801d1eb8 into r1
